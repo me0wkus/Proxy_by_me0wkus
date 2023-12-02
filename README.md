@@ -10,7 +10,7 @@ Chrome Extensions API: Использование API для создания и
 Git: Для управления версиями кода и хранения репозитория проекта.
 VSCode: Интегрированная среда разработки для написания и отладки кода.
 - **Превью**:
-- ![Превью](https://github.com/me0wkus/Proxy_by_me0wkus/blob/main/img/preview.png)
+![Превью](https://github.com/me0wkus/Proxy_by_me0wkus/blob/main/img/preview.png)
 
 ## Установка
 
