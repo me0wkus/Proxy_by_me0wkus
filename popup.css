@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'BrassMono'; /* Название шрифта */
+  src: url('fonts/BrassMono.woff') format('woff'), /* Путь к файлу шрифта */
+}
+
+body {
+  width: 250px; /* Ширина окна */
+  padding: 10px;
+  font-family: 'BrassMono', sans-serif;
+  font-size: 13px;
+  border-radius: 15px; /* Радиус скругления углов окна, но в хроме они не скругляются */
+  background: url(img/background.jpg) center / cover no-repeat; /* Фон */
+}
+
+/* Стили для всех элементов */
+#proxyList,
+#applyButton,
+#disableButton,
+#customInput {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 20px;
+  user-select: none; /* Предотвращение выделения текста */
+  font-family: 'BrassMono', sans-serif;
+}
+
+/* Стили для кнопок применения/отключения */
+#applyButton {
+  display: inline-block;
+  padding: 8px 15px;
+  margin: 0 5px;
+  background-color: #ffffff;
+  color: #008000; /* Зелёный текст */
+  border: 1px solid #008000; /* Зелёная обводка */
+  cursor: pointer;
+  border-radius: 20px; /* Радиус скругления */
+}
+
+#disableButton {
+  display: inline-block;
+  padding: 8px 15px;
+  margin: 0 5px;
+  background-color: #ffffff;
+  color: #ff0000; /* Красный текст */
+  border: 1px solid #ff0000; /* Красная обводка */
+  cursor: pointer;
+  border-radius: 20px; /* Радиус скругления */
+}
+
+#proxyList {
+	border: 1px solid #ffff00; /* Жёлтая обводка */
+}
+
+/* Затемнение кнопок при наведении */
+#applyButton:hover,
+#disableButton:hover {
+  background-color: #c0c0c0;
+}
+
+/* Стиль для заголовка */
+.title {
+  text-align: center;
+  color: #ffffff;
+  user-select: none; /* Предотвращение выделения текста заголовка */
+  margin-bottom: 5px;
+  margin-top: 25px; /* Уменьшает верхний отступ текста */
+}
+
+/* Расположение кнопок в строку, последовательно */
+.button-container {
+  display: flex;
+  justify-content: center; /* Выравнивание кнопок по центру */
+}
+
+.githubLogo {
+  width: 25px; /* Установите нужную ширину */
+  height: auto; /* Автоматический расчёт высоты */
+  position: absolute; /* Позиционирование абсолютное */
+  top: 10px; /* Отступ сверху */
+  left: 10px; /* Отступ слева */
+  user-select: none;
+}
