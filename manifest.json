@@ -17,11 +17,22 @@
       "48": "img/icon48.png",
       "128": "img/icon128.png"
     },
-    "default_popup": "popup.html"
+    "default_popup": "src/popup.html"
   },
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "src/background.js"
   },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "fonts/*",
+        "img/*"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"
   }
