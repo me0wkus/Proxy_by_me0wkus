@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'BrassMono'; /* Название шрифта */
-  src: url('fonts/BrassMono.woff') format('woff'), /* Путь к файлу шрифта */
+  src: url('../fonts/BrassMono.woff') format('woff'), /* Путь к файлу шрифта */
 }
 
 body {
